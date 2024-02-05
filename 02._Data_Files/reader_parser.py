@@ -6,7 +6,7 @@ import ruamel.yaml
 import sys
 
 def print_separator():
-    print('-' * 50)  # Adjust the number of dashes as needed
+    print('-' * 50)
 
 # Read and parse text file
 with open('./me.txt','r',  encoding='utf-8') as file:

@@ -9,7 +9,7 @@ class Program
 {
     static void PrintSeparator()
     {
-        Console.WriteLine(new string('-', 50)); // Adjust the number of dashes as needed
+        Console.WriteLine(new string('-', 50));
     }
     static void Main()
     {
