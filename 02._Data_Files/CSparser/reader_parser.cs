@@ -9,20 +9,26 @@ class Program
 {
     static void Main()
     {
+        // Read and parse text file
+        string txtContent = File.ReadAllText("../me.txt", Encoding.UTF8);
+        Console.WriteLine("\nTXT:");
+        Console.WriteLine(txtContent);
+
         // Read and parse XML file
         string xmlContent = File.ReadAllText("../me.xml", Encoding.UTF8);
         Console.WriteLine("XML:");
         Console.WriteLine(xmlContent);
 
-        // Read and parse JSON file
-        string jsonContent = File.ReadAllText("../me.json", Encoding.UTF8);
-        Console.WriteLine("\nJSON:");
-        Console.WriteLine(jsonContent);
 
         // Read and parse YAML file
         string yamlContent = File.ReadAllText("../me.yaml", Encoding.UTF8);
         Console.WriteLine("\nYAML:");
         Console.WriteLine(yamlContent);
+        
+        // Read and parse JSON file
+        string jsonContent = File.ReadAllText("../me.json", Encoding.UTF8);
+        Console.WriteLine("\nJSON:");
+        Console.WriteLine(jsonContent);
 
         // Read and parse CSV file
         string csvData = File.ReadAllText("../me.csv", Encoding.UTF8);
@@ -34,9 +40,5 @@ class Program
             Console.WriteLine(string.Join(", ", row));
         }
 
-        // Read and parse text file
-        string txtContent = File.ReadAllText("../me.txt", Encoding.UTF8);
-        Console.WriteLine("\nTXT:");
-        Console.WriteLine(txtContent);
     }
 }
