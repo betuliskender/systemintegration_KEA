@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "hEhz8ptozwfjx5oV6CjC1CdKzSAZ1Ak+oLmjPYQl63it45Tl+x4AZSnI670ZCzOBKp1MiHQWORaslY/5pNB+AA==",
+  "dgSpecHash": "PTil4RYGZGwmTh/SDkHzt6kpIlY49TxLcT0g+ffXDShHGMf6tCFZkBxtgCpVY/wbBm2z06ny7Reg0PeJyBtkcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Betul\\Desktop\\System Integration\\02._Data_Files\\CSparser\\CSparser.csproj",
+  "projectFilePath": "C:\\Users\\Betul\\Desktop\\KEA\\System integration\\systemintegration_KEA\\02._Data_Files\\CSparser\\CSparser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Betul\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512",
     "C:\\Users\\Betul\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Betul\\.nuget\\packages\\yamldotnet\\10.0.0\\yamldotnet.10.0.0.nupkg.sha512"
+    "C:\\Users\\Betul\\.nuget\\packages\\yamldotnet\\10.0.0\\yamldotnet.10.0.0.nupkg.sha512",
+    "C:\\Users\\Betul\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Betul\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Betul\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Betul\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
   ],
   "logs": []
 }
