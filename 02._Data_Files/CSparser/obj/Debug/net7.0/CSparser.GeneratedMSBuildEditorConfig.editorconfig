@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CSparser
-build_property.ProjectDir = C:\Users\Betul\Desktop\System Integration\02._Data_Files\CSparser\
+build_property.ProjectDir = C:\Users\Betul\Desktop\KEA\System integration\systemintegration_KEA\02._Data_Files\CSparser\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
