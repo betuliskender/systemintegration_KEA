@@ -3,7 +3,7 @@ import { parseString } from "xml2js";
 import yaml from "js-yaml";
 
 // Function to read and parse text file
-export function parseTextFile(filePath) {
+export function parseTXT(filePath) {
     const txtContent = readFileSync(filePath, "utf-8");
     const txtLines = txtContent.trim().split("\r\n").map(line => {
         const [key, value] = line.split(":").map(item => item.trim());
@@ -13,7 +13,7 @@ export function parseTextFile(filePath) {
 }
 
 // Function to read and parse XML file
-export function parseXMLFile(filePath, callback) {
+export function parseXML(filePath, callback) {
     const xmlContent = readFileSync(filePath, "utf-8");
     parseString(xmlContent, (err, result) => {
         if (err) {
@@ -30,19 +30,19 @@ export function parseXMLFile(filePath, callback) {
 }
 
 // Function to read and parse YAML file
-export function parseYAMLFile(filePath) {
+export function parseYAML(filePath) {
     const yamlContent = readFileSync(filePath, "utf-8");
     return yaml.load(yamlContent);
 }
 
 // Function to read and parse JSON file
-export function parseJSONFile(filePath) {
+export function parseJSON(filePath) {
     const jsonContent = JSON.parse(readFileSync(filePath, "utf-8"));
     return jsonContent;
 }
 
 // Function to read and parse CSV file
-export function parseCSVFile(filePath) {
+export function parseCSV(filePath) {
     const csvData = readFileSync(filePath, "utf-8");
     const csvContent = csvData.split(/\r?\n/).map(row => row.split(","));
     const headers = csvContent[0];

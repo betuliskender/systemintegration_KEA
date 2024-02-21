@@ -29,3 +29,38 @@ def json():
 def txt():
     data = parseTXT('../data/me.txt')
     return {"data": data}
+
+@app.get("/requestcsv")
+def requestCSV():
+    res = requests.get('http://localhost:8050/csv')
+    data = res.json()
+
+    return {"data": data}
+
+@app.get("/requestxml")
+def requestXML():
+    res = requests.get('http://localhost:8050/xml')
+    data = res.json()
+
+    return {"data": data}
+
+@app.get("/requestyaml")
+def requestYAML():
+    res = requests.get('http://localhost:8050/yaml')
+    data = res.json()
+
+    return {"data": data}
+
+@app.get("/requestjson")
+def requestJSON():
+    res = requests.get('http://localhost:8050/json')
+    data = res.json()
+
+    return {"data": data}
+
+@app.get("/requesttxt")
+def requestTXT():
+    res = requests.get('http://localhost:8050/txt')
+    data = res.json()
+
+    return {"data": data}
