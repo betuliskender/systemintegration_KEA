@@ -1,25 +1,47 @@
-# Database README
 
-## Database Name
-- **SystemIntegration-kea**
+# Granular acces 
 
-## Connection Information
-- **Connection string**: systemintegration-user-access-new.database.windows.net
+## Connection
 
-## Users
-- **Login**: zack
-- **Password**: P@ssword1
+To access the database run below code in powershell
 
-## Tables
-- **read_only**
-  - Users can only perform SELECT operations.
-- **full_access**
-  - Users can perform SELECT, INSERT, UPDATE, and DELETE operations.
-- **no_access**
-  - Users cannot access the table at all.
+```bash
+  sqlcmd -S servername -U username -P password -d database
+```
 
-## How to Access
-1. Open terminal.
-2. Execute the following command:
+**Connection string**: systemintegration-user-access-new.database.windows.net
 
-![alt text](image.png)
+**Username**: Zack
+
+**Password**: Z@ck1234
+
+**Database**: SystemIntegratiion
+
+## SQL Commands
+
+**View tables**
+
+SELECT TABLE_NAME
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE';
+
+**View table**
+
+Try: SELECT * FROM USERS
+
+See what it says.
+
+
+**View columns**
+
+SELECT COLUMN_NAME
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME =  'Users';
+
+**Update statements**
+
+Try to update the columns
+
+UPDATE Users set Email = 'email@email.dk' where ID = **ID**;
+
+UPDATE Users set ID = 0 where ID = **ID**;
