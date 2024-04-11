@@ -21,7 +21,7 @@
     <h2>File Form</h2>
     <form action="http://localhost:8080/fileform" method="POST" enctype="multipart/form-data">
         <label for="file">File</label>
-        <input type="file" name="file" accept="*">
+        <input type="file" name="file" accept="image/*">
 
         <label for="description"></label>
         <input type="text" name="description">
@@ -29,6 +29,30 @@
         <input type="submit" value="Submit">
     </form>
     
+    <script>
+        const fileInput = document.querySelector('input[type="file"]')
+        
+        fileInput.addEventListener("change", (event) => {
+            const file = event.target.files[0]
+            console.log(file)
+
+            const validTypes = ["image/png"]
+            if (!validTypes.includes(file.type)) {
+                alert("Not a valid type")
+                fileInput.value = ""
+                return
+            }
+
+            const maxSize = 10 * 1024 * 1024
+            if(file.size > maxSize) {
+                alert(`File size too big, max size: ${maxSize}`)
+                fileInput.value = ""
+                return
+            }
+
+        })
+
+    </script>
 </body>
 </html>
 
