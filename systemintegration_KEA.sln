@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02._Data_Files", "02._Data_Files", "{FC3A0E68-8FEA-4452-B2B9-1859DF32A9B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSparser", "02._Data_Files\CSparser\CSparser.csproj", "{00604092-63C4-4725-B69C-2F48428D0F24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00604092-63C4-4725-B69C-2F48428D0F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00604092-63C4-4725-B69C-2F48428D0F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00604092-63C4-4725-B69C-2F48428D0F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00604092-63C4-4725-B69C-2F48428D0F24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00604092-63C4-4725-B69C-2F48428D0F24} = {FC3A0E68-8FEA-4452-B2B9-1859DF32A9B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58C673BF-E71E-47D9-BA49-0D16307B72BA}
+	EndGlobalSection
+EndGlobal
