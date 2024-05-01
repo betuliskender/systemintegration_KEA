@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSparser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a4501e7d78b77db821a07c30539e1671e5ce965")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d175e67fff5c0540bdff0cdbfc774bafe2a0f645")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSparser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSparser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
